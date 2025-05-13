@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41645f95fe.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xTaa0Ud1QjPr6g-Gl",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <!-- <a href="index.html" style="text-decoration: none; border-bottom: none;"><code style="color:whitesmoke; font-size: 0.9rem; border: 2px solid #0cc5b649; padding: 10px; background:linear-gradient(70deg,#0C0514,#290c49); border-radius: 15px;" >( e ) => {mcgeo 💻:webDev;}</code></a> -->
+                <ul>
+                    <li class="menu"><i class="fa-solid fa-bars"></i></li>
+                    <li class="icon"><a href="#"><i class="fa-solid fa-laptop-code"></i></a></li>
+                    <li class="hideOnMobile"><a href="#profile">Home</a></li>
+                    <li class="hideOnMobile"><a href="#aboutMe">About Me</a></li>
+                    <li class="hideOnMobile"><a href="#myProjects">My Projects</a></li>
+                    <li class="hideOnMobile"><a href="#mySkills">My Skills</a></li>
+                    <li class="hideOnMobile"><a href="#contactMe">Contact Me</a></li>
+                    <li class="hideOnMobile"><a href="#myResume">My Resume</a></li>
+                    <li class="hideOnMobile"><a href="#mySkills">Our Services</a></li>
+                    <li class="hideOnMobile"><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+            <nav class="sideBar">
+                <!-- <a href="index.html" style="text-decoration: none; border-bottom: none;"><code style="color:whitesmoke; font-size: 0.9rem; border: 2px solid #0cc5b649; padding: 10px; background:linear-gradient(70deg,#0C0514,#290c49); border-radius: 15px;" >( e ) => {mcgeo 💻:webDev;}</code></a> -->
+                <ul>
+                    <li class="closeSideBar"><i class="fa-solid fa-circle-xmark"></i></li>
+                    <li><a href="#profile" onclick="closeBar()">Home</a></li>
+                    <li><a href="#aboutMe" onclick="closeBar()">About Me</a></li>
+                    <li><a href="#myProjects" onclick="closeBar()">My Projects</a></li>
+                    <li><a href="#mySkills" onclick="closeBar()">My Skills</a></li>
+                    <li><a href="#contactMe" onclick="closeBar()">Contact Me</a></li>
+                    <li><a href="#myResume" onclick="closeBar()">My Resume</a></li>
+                    <li><a href="#mySkills" onclick="closeBar()">Our Services</a></li>
+                    <li><a href="#hobbies" onclick="closeBar()">Hobbies</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <main>
+    
+            <div class="myProfile" id="profile">
+                <img src="images/mypicture.jpg">
+                <p>My name is Mordi Geofrey</p>
+                <p id="sentences"><span class="auto-type"></span></p>
+                <p id="date" style="font-size: 13px;">8 - February - 2025</p>
+                <span id="time">20:20:00 PM</span>
+            </div>
+                
+        
+            <div class="portContent">
+                <section id="aboutMe"><h2>About Me</h2>
+                    <p>Hello! My name is Mordi Geofrey. Over the years, I’ve taken on a variety of jobs — from factory work as a machine operator, to marketing roles where I engaged with people on the streets. I even explored real estate and telemarketing. Although I gained a lot of experience, I never felt fulfilled — until I found my true passion in tech.
+
+                        Now, I’m focused on becoming a full-stack developer. I’m currently diving deep into front-end development and plan to master the backend soon. With a background in Civil Engineering and a strong drive to build powerful web applications, I’m excited to bring ideas to life through code.</p>
+                        
+                </section>
+
+                <section id="myProjects"><h2>My Projects</h2>
+                    <div class="myProjects">
+                        <ul id="projects">
+                            <li><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/new-project/">E-commerce website <span><p style="padding: 30px;">Kubli's galley e-commerce website made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript, very responsive</p></span></a></li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/image-engine-search/">Image Search Engine <span><p style="padding: 30px;">Image Search Engine program made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript : using the Fetch Method and API to take image data</p></span> </a></li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/image_gallery/">Image Gallery<span><p style="padding: 30px;">Image Gallery program made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript : I had to make use of <i class="fa-brands fa-css3-alt"></i> CSS to make a filter effect</p></span></a> </li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/random-password-generator/">Random Password Generator <span><p style="padding: 30px;">Random password generator made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript : I had to make sure that every characters are used in making random password</p></span></a> </li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/todo-app/">TO-DO List <span><p style="padding: 30px;">A todo list program made to keep track of what a person needs to do , this was made with <i class="fa-brands fa-html5"></i> HTML,<i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> Javascript mainly trying the DOM by removing ,deleting,updating and creating a new list</p></span> </a></li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="">Hide & Show Password<span><p style="padding: 30px;">Hide & Show Password program made this with simple <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> Javascript.. closed eye means password is hidden then open eyes means password is visible</p></span></a> </li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/form-validation/">Form Validation<span><p style="padding: 30px;">Form validation this is basically know all information inputed at each field are seriously validated this was made with just <i class="fa-brands fa-html5"></i> HTML <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> Javascript </p></span></a> </li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/coming-soon-website/">Coming Soon Website<span><p style="padding: 30px;">Coming Soon Website: A coming soon website what will I say it was made in its beautiful way a countdown was included made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript</p></span> </a></li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/weather-app/">Weather App <span><p style="padding: 30px;">A weather program this is strictly for the United State Of America, I had to take informations from OpenWeather API using the fetch method, this was made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript</p></span> </a></li>
+                            <li ><a style="font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcgeofrey.github.io/note-application-program/">Note Program <span><p style="padding: 30px;">Just like the todo list program, this was made to create, edit , delete and update data, this was made with <i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS and <i class="fa-brands fa-js"></i> JavaScript</p></span></a> </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="mySkills"><h2>My Skills</h2>
+                    <ul>
+                        <ol><i class="fa-brands fa-html5"></i> HTML</ol>
+                        <ol><i class="fa-brands fa-css3-alt"></i> CSS</ol>
+                        <ol><i class="fa-brands fa-js"></i> JAVASCRIPT</ol>
+                        <ol><i class="fa-brands fa-github"></i> GITHUB & GITHUB DESKTOP</ol>
+                        <ol><i class="fa-solid fa-code"></i> VS CODE</ol>
+                        <!-- <ol><i class="fa-solid fa-code"></i> TAILWIND CSS</ol>
+                        <ol><i class="fa-solid fa-code"></i> REACT JS</ol>
+                        <ol><i class="fa-solid fa-code"></i> NODE JS</ol>
+                        <ol><i class="fa-solid fa-code"></i> PHP</ol>
+                        <ol><i class="fa-solid fa-code"></i> CHATGPT & GOOGLE</ol>
+                        <ol><i class="fa-solid fa-code"></i> PYTHON</ol> -->
+                    </ul>
+                </section>
+                <section id="mySkills" class="ourServices"><h2>Our Services</h2>
+                    <ul>
+                        <ol><i class="fa-solid fa-cart-shopping"></i> Building of E-commerce website</ol>
+                        <ol><i class="fa-solid fa-building"></i> Real Estate Website</ol>
+                        <ol><i class="fa-solid fa-pager"></i> Landing Page</ol>
+                        <ol><i class="fa-solid fa-briefcase"></i> Small Business website</ol>
+                        <ol><i class="fa-solid fa-car"></i> Car sales website</ol>
+                        <ol><i class="fa-solid fa-blog"></i> Blogs</ol>
+                        <ol><i class="fa-solid fa-music"></i> Music application</ol>
+                        <ol><i class="fa-solid fa-circle-dollar-to-slot"></i> And many more</ol>
+                    </ul>
+                </section>
+                <section id="contactMe"><h2>Contact Me</h2>
+                    <p>Finally, I will be needing jobs to show my skills as a frontEnd web developer, you can contact me via  email, instagram, X ,  tiktok, WhatsApp and  facebook</p>
+                    <ul>
+                        <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">My Socials  : </p>
+                        <li><a href="mailto:freyz2016@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li><a href="https://www.instagram.com/mordigeofrey"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://x.com/geofreymordi1"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="https://web.facebook.com/chukwuweike.geofrey"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@mordigeofrey817"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="https://wa.link/177nin"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/mordi-geofrey-9136401ba"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                <form>
+                    <fieldset>
+                        <div id="formDiv"><label for="firstName">First Name: </label><input type="text" placeholder="Enter your first name" name="firstName" id="firstName"><br><span id="firstNameError"></span></div>
+                    <div id="formDiv"><label for="lastName">Last Name: </label><input type="text"placeholder="Enter your last name" name="lastName" id="lastName"><br><span id="lastNameError" ></span></div>
+                    <div id="formDiv"><label for="email">Email:</label><input type="email" placeholder="Enter your email" name="email" id="email"><br><span id="emailError"></span></div>
+                    <div id="formDiv"><label for="message">Your Message:</label><textarea placeholder="Enter your message" name="message" id="message" row="5"></textarea><br><span id="messageError"></span></div>
+                    <div><button id="submit">Submit</button><br><span id="submitError"></span></div>   
+                    </fieldset>
+                </form>
+                </section>
+
+                <section id="myResume"><h2>My Resume</h2>
+                    <p>Highly skilled professional with extensive expertise in call centre software operation, telesales software usage, and resilience to rejection. Demonstrates exceptional data entry speed and salesmanship tactics, coupled with proficiency in online chat handling and user experience principles. Adept in JavaScript fluency, site testing techniques, command line usage, API integration capability including REST APIs, and web UI design. Experienced in version control, user interface design, coding standards compliance, code reviewing practices, and responsive design creation. Possesses advanced technical understanding and creative problem-solving abilities. Excellent communication skills enhance client engagement and collaborative coding efforts. Proficient in technical documentation writing and web performance optimisation techniques. Mastery of HTML5 and CSS3 ensures high-quality web development outcomes.
+    
+                        Lively and eager Telemarketer with passion for sales and prospecting. Regularly exceeds sales quotes by establishing bond between company and customer. Great negotiation and customer service skills.
+                        
+                        High-energy Telemarketer with 8 years of experience in call centre environment. Experienced with handling inbound and outbound calls. Always promotes company's image of quality, professionalism and integrity.</p>
+                <p><a href="cv/geofrey-chukwuweike-new-cv.pdf" style="font-size: 1.4rem; color: #146cd1; margin: 15px; border-bottom: none;">View My Resume ➡</a></p>
+            </section>
+
+            <section id="hobbies"><h2>Hobbies</h2>
+                <p><ul>
+                    <li>Football (A liverpool fan)</li>
+                    <li>Music (All types of songs)</li>
+                    <li>Learning</li>
+                    <li>Sleeping</li>
+                    <li>Coding (programming)</li>
+                </ul></p>
+            </section>
+
+            </div>
+
+        </main>
+        <footer>
+            <ul>
+                <li style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">My Socials  : </li>
+                <li><a href="mailto:freyz2016@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://www.instagram.com/mordigeofrey"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://x.com/geofreymordi1"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://web.facebook.com/chukwuweike.geofrey"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.tiktok.com/@mordigeofrey817"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://wa.link/177nin"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mordi-geofrey-9136401ba"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   
+    <script src="index.js"></script>
+</body>
+</html>
