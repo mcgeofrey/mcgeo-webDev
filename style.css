@@ -9,9 +9,10 @@
 }
 
 .auto-type{
-    color: #2fabf3;
+    color: #f3562f;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container{
