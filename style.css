@@ -125,23 +125,24 @@
         margin: 10px auto;
         padding: 50px;
         margin-top: 90px;
+        
     }
     
     .myProfile p{
         margin: 20px;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-style: italic;
         font-weight: 300;
     }
     
     .myProfile #sentences{
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
     
     .myProfile img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius:50%;
         border:2px solid #290c49;
         outline: 0;
