@@ -9,9 +9,9 @@
 }
 
 .auto-type{
-    color: #f3562f;
+    color: #dedfda;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -36,7 +36,7 @@
      header{
         height: 50px;
         width: 100%;
-        font-size: larger;
+        font-size: 1.2rem;
     }
 
     .sideBar{
@@ -47,6 +47,7 @@
         margin: 20px;
         width: 20%;
         height: 50px;
+        white-space: nowrap;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -64,7 +65,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         height: 50px;
         gap: 10px;
     }
